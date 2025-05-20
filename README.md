@@ -1,2 +1,2 @@
 # Testing
-jsut for testing
+just for testing
