@@ -18,7 +18,7 @@ jobs:
           root_file: storycards.tex
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@e8281b3b9a632a43b17a5de5d5e0eae4955a0e0e
         with:
           name: PDF
           path: storycards.pdf
