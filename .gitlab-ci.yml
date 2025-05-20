@@ -1,0 +1,13 @@
+image: texlive/texlive
+
+stages:
+  - build
+
+build_pdf:
+  stage: build
+  script:
+    - pdflatex -interaction=nonstopmode storycards.tex
+  artifacts:
+    paths:
+      - storycards.pdf
+    expire_in: 1 week
