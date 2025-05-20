@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up LaTeX and compile
+      - name: Compile LaTeX
         uses: xu-cheng/latex-action@v2
         with:
           root_file: storycards.tex
